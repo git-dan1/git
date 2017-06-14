@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.v_right{
+    width: 960px;
+    height: 600px;
+    /*border: 1px solid gray;*/
+    margin: 0 auto;
+}
+.v_shang{
+    width: 960px;
+    height:60px;
+    border-bottom: 1px solid #F9F9F9;
+    margin-bottom: 20px;
+    /*outline: 1px solid gray;*/
+}
+.v_zd{
+    font-size: 20px;
+    line-height: 60px;
+    margin-left:50px;
+}
+.v_xia{
+    width: 850px;
+    height: 500px;
+
+    /*outline: 1px solid gray;*/
+    margin: 0 auto;
+}
+.v_tab1{
+    width: 800px;
+    height: 70px;
+}
+.v_tab1 p{
+    font-size: 13px;
+    color: gray;
+}
+.v_tab1 span{
+    color: black;
+}
+.v_ul-li{
+    width: 800px;
+    height: 50px;
+}
+.v_ul-li>li{
+    list-style: none;
+    float: left;
+    width: 70px;
+    line-height: 50px;
+    text-align: center;
+}
+.v_ul-li>li:hover{
+    border-bottom: 2px solid #FD6675;
+}
+.v_tab2{
+    width: 800px;
+    height: 350px;
+    /*border: 1px solid red;*/
+}
+.v_tab2 td{
+    width: 100px;
+    height: 50px;
+    font-size: 14px;
+}
+.v_tab2 select{
+    width: 150px;
+    height: 50px;
+}
+.v_tab2 div{
+    width: 100px;
+    height: 35px;
+    border: 1px solid gray;
+    text-align: center;
+    line-height: 35px;
+    border-radius:5px;
+}
+.v_tab2 textarea{
+    width: 200px;
+    height: 100px;
+}
+.v_dibu{
+    width: 320px;
+    height: 50px;
+    /*outline: 1px solid red;*/
+    margin: 0 auto;
+}
+.v_dibu>div{
+    width: 100px;
+    height: 50px;
+    background-color: #FF6577;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 14px;
+    border-radius:3px ;
+    float: left;
+}
+.v_dibu>span{
+    margin-left: 10px;
+    line-height: 50px;
+    font-size: 14px;
+    color: gray;
+}
+
+
+
+
+
+
+

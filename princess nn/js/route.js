@@ -1,0 +1,37 @@
+var app=angular.module("app",["ngRoute"])
+app.controller("test",function($scope){
+	
+})
+app.config(function($routeProvider){
+    $routeProvider.when('/index',{
+        templateUrl:'ht/aa.html'
+    }).when('/customer',{
+        templateUrl:'ht/customer.html'
+    }).when('/piece',{
+        templateUrl:'ht/piece.html'
+    }).when('/information',{
+        templateUrl:'ht/information.html'
+    }).when('/works',{
+        templateUrl:'ht/works.html'
+    }).when('/preview',{
+        templateUrl:'ht/preview.html'
+    }).when('/order',{
+        templateUrl:'ht/order.html'
+    }).when('/user',{
+        templateUrl:'ht/user.html'
+    }).when('/department',{
+        templateUrl:'ht/department.html'
+    }).when('/view',{
+        templateUrl:'ht/view.html'
+    }).when('/detail',{
+        templateUrl:'ht/detail.html'
+    }).when('/backup',{
+        templateUrl:'ht/backup.html'
+    }).when('/yunmeng',{
+        templateUrl:'ht/yunmeng.html'
+    }).when('/Single',{
+        templateUrl:'ht/Single.html'
+    }).when('/take',{
+        templateUrl:'ht/take.html'
+    }).otherwise('/index')
+})

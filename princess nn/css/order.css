@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none; }
+input{
+	      border: 1px solid #DDDDDD;
+      border-radius: 3px;
+}
+#right-2 {
+  width: 960px;
+  height: 960px;
+  float: left; }
+  #right-2 h4 {
+    margin-top: 25px;
+    margin-left: 35px; }
+  #right-2 #xian {
+    border-bottom: 1px solid #F7F7F7;
+    margin-top: 25px; }
+  #right-2 #type {
+    width: 960px;
+    height: 25px;
+    line-height: 25px;
+    display: flex;
+    margin-top: 25px;
+    margin-left: 36px; }
+    #right-2 #type input {
+      margin-left: 50px;
+      margin-top: 4px; }
+  #right-2 #xinniang {
+    width: 960px;
+    display: flex;
+    margin-left: 36px;
+    margin-top: 25px;
+    align-items: center; }
+    #right-2 #xinniang input:nth-of-type(1) {
+      margin-left: 80px;
+      width: 150px;
+      height: 40px; }
+    #right-2 #xinniang input:nth-of-type(2) {
+      margin-left: 40px;
+      width: 150px;
+      height: 40px; }
+    #right-2 #xinniang select {
+      width: 120px;
+      height: 40px;
+      margin-left: 40px;
+      color: #E0E0E0; }
+    #right-2 #xinniang img {
+      margin-left: 10px; }
+  #right-2 #xinlang {
+    width: 960px;
+    display: flex;
+    margin-left: 36px;
+    margin-top: 25px;
+    align-items: center; }
+    #right-2 #xinlang input:nth-of-type(1) {
+      margin-left: 80px;
+      width: 150px;
+      height: 40px; }
+    #right-2 #xinlang input:nth-of-type(2) {
+      margin-left: 70px;
+      width: 150px;
+      height: 40px; }
+    #right-2 #xinlang select {
+      width: 120px;
+      height: 40px;
+      margin-left: 70px;
+      color: #E0E0E0; }
+  #right-2 #name {
+    width: 960px;
+    display: flex;
+    margin-left: 36px;
+    margin-top: 25px;
+    align-items: center; }
+    #right-2 #name input {
+      margin-left: 64px;
+      width: 300px;
+      height: 46px; }
+    #right-2 #name img {
+      margin-left: 10px; }
+  #right-2 #time {
+    width: 960px;
+    display: flex;
+    margin-left: 36px;
+    margin-top: 25px;
+    align-items: center; }
+    #right-2 #time select {
+      margin-left: 49px;
+      width: 150px;
+      height: 40px; }
+    #right-2 #time img {
+      margin-left: 10px; }
+  #right-2 #price {
+    width: 960px;
+    display: flex;
+    margin-left: 36px;
+    margin-top: 25px;
+    align-items: center; }
+    #right-2 #price input {
+      margin-left: 50px;
+      width: 150px;
+      height: 40px; }
+    #right-2 #price img {
+      margin-left: 10px; }
+  #right-2 #price1 {
+    width: 960px;
+    display: flex;
+    margin-left: 36px;
+    margin-top: 25px;
+    align-items: center; }
+    #right-2 #price1 input {
+      margin-left: 50px;
+      width: 150px;
+      height: 40px; }
+    #right-2 #price1 img {
+      margin-left: 10px; }
+  #right-2 #jiedan {
+    width: 960px;
+    display: flex;
+    margin-left: 36px;
+    margin-top: 25px;
+    align-items: center; }
+    #right-2 #jiedan p:nth-of-type(2) {
+      width: 95px;
+      height: 35px;
+      border: 1px solid gainsboro;
+      border-radius: 6%;
+      text-align: center;
+      line-height: 35px;
+      color: #E0E0E0;
+      margin-left: 66px; }
+    #right-2 #jiedan img {
+      margin-left: 10px; }
+  #right-2 #beizhu {
+    width: 960px;
+    display: flex;
+    margin-left: 36px;
+    margin-top: 25px;
+    align-items: center; }
+    #right-2 #beizhu input {
+      margin-left: 80px;
+      width: 600px;
+      height: 110px; }
+  #right-2 #tijiao {
+    width: 960px;
+    display: flex;
+    margin-top: 35px;
+    margin-left: 36px; }
+    #right-2 #tijiao p:nth-of-type(1) {
+      width: 120px;
+      height: 50px;
+      border-radius: 4%;
+      text-align: center;
+      line-height: 50px;
+      margin-left: 110px;
+      margin-top: -10px;
+      color: white;
+      background: #FF6577; }
+    #right-2 #tijiao p:nth-of-type(2) {
+      width: 120px;
+      height: 50px;
+      border: 1px solid gainsboro;
+      border-radius: 4%;
+      text-align: center;
+      line-height: 50px;
+      margin-left: 50px;
+      margin-top: -10px; }
+
+/*# sourceMappingURL=scss1.css.map */

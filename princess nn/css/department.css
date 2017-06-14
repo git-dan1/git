@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none; }
+
+#right-4 {
+  width: 960px;
+  height: 960px;
+  float: left; }
+  #right-4 h4 {
+    margin-top: 25px;
+    margin-left: 45px; }
+  #right-4 #xian {
+    border-bottom: 1px solid #F7F7F7;
+    margin-top: 25px; }
+  #right-4 #phone {
+    width: 960px;
+    display: flex;
+    margin-left: 36px;
+    margin-top: 25px;
+    align-items: center; }
+    #right-4 #phone input {
+      margin-left: 68px;
+      width: 300px;
+      height: 36px; }
+    #right-4 #phone img {
+      margin-left: 10px; }
+    #right-4 #phone p:nth-of-type(2) {
+      margin-left: 10px; }
+  #right-4 #pass {
+    width: 960px;
+    display: flex;
+    margin-left: 36px;
+    margin-top: 25px;
+    align-items: center; }
+    #right-4 #pass input {
+      margin-left: 80px;
+      width: 300px;
+      height: 36px; }
+    #right-4 #pass img {
+      margin-left: 10px; }
+  #right-4 #pass1 {
+    width: 960px;
+    display: flex;
+    margin-left: 36px;
+    margin-top: 25px;
+    align-items: center; }
+    #right-4 #pass1 input {
+      margin-left: 57px;
+      width: 300px;
+      height: 36px; }
+    #right-4 #pass1 img {
+      margin-left: 10px; }
+  #right-4 #name {
+    width: 960px;
+    display: flex;
+    margin-left: 36px;
+    margin-top: 25px;
+    align-items: center; }
+    #right-4 #name input {
+      margin-left: 80px;
+      width: 300px;
+      height:36px; }
+    #right-4 #name img {
+      margin-left: 10px; }
+  #right-4 #set {
+    width: 960px;
+    height: 25px;
+    display: flex;
+    margin-left: 36px;
+    margin-top: 25px;
+    line-height: 25px;
+  }
+    #right-4 #set input {
+      margin-left: 50px;
+      margin-top: 5px; }
+  #right-4 #fuwu {
+    width: 960px;
+    height: 25px;
+    line-height: 25px;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 145px; }
+    #right-4 #fuwu input {
+      margin-left: 50px;
+      margin-top: 4px; }
+  #right-4 #fuwu1 {
+    width: 960px;
+    height: 25px;
+    line-height: 25px;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 145px; }
+    #right-4 #fuwu1 input:nth-of-type(1) {
+      margin-left: 50px;
+      margin-top: 4px; }
+    #right-4 #fuwu1 input:nth-of-type(2) {
+      margin-left: 73px;
+      margin-top: 4px; }
+    #right-4 #fuwu1 input:nth-of-type(3) {
+      margin-left: 36px;
+      margin-top: 4px; }
+  #right-4 #fuwu3 {
+    width: 960px;
+    height: 25px;
+    line-height: 25px;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 145px; }
+    #right-4 #fuwu3 input:nth-of-type(1) {
+      margin-left: 50px;
+      margin-top: 4px; }
+    #right-4 #fuwu3 input:nth-of-type(2) {
+      margin-left: 73px;
+      margin-top: 4px; }
+  #right-4 #tijiao {
+    width: 960px;
+    display: flex;
+    margin-top: 35px;
+    margin-left: 36px; }
+    #right-4 #tijiao p:nth-of-type(1) {
+      width: 120px;
+      height: 50px;
+      border-radius: 4%;
+      text-align: center;
+      line-height: 50px;
+      margin-left: 110px;
+      margin-top: -10px;
+      color: white;
+      background: #FF6577; }
+    #right-4 #tijiao p:nth-of-type(2) {
+      width: 120px;
+      height: 50px;
+      border: 1px solid gainsboro;
+      border-radius: 4%;
+      text-align: center;
+      line-height: 50px;
+      margin-left: 50px;
+      margin-top: -10px; }
+
+/*# sourceMappingURL=scss3.css.map */

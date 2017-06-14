@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html ng-app="app">
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="Font/demo-files/demo.css"/>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>			
+		<link rel="stylesheet" type="text/css" href="css/aaa.css"/>
+		<link rel="stylesheet" type="text/css" href="css/take.css"/>
+		<link rel="stylesheet" type="text/css" href="css/Single.css"/>
+		<link rel="stylesheet" type="text/css" href="css/yunmeng.css"/>
+		<link rel="stylesheet" type="text/css" href="css/backup.css"/>
+		<link rel="stylesheet" type="text/css" href="css/detail.css"/>
+		<link rel="stylesheet" type="text/css" href="css/view.css"/>
+		<link rel="stylesheet" type="text/css" href="css/department.css"/>
+		<link rel="stylesheet" type="text/css" href="css/user.css"/>
+		<link rel="stylesheet" type="text/css" href="css/order.css"/>
+		<link rel="stylesheet" type="text/css" href="css/piece.css"/>
+		<link rel="stylesheet" type="text/css" href="css/customer.css"/>
+		<link rel="stylesheet" type="text/css" href="css/information.css"/>
+		<link rel="stylesheet" type="text/css" href="css/works.css"/>
+		<link rel="stylesheet" type="text/css" href="css/preview.css"/>
+		<script src="js/jquery-2.1.4.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/angular.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/angular-route.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/route.js" type="text/javascript" charset="utf-8"></script>
+	
+		
+	</head>
+	<body ng-controller="test">
+			<header>
+				<div>
+					<img src="images/logo.jpg" alt=""/>
+					<a href="#" data-toggle="dropdown" id="a"><img src="images/user.jpg">Kinson<span class="caret"></span></a>
+				</div>
+			</header>
+			<div id="main">
+				<div id="left">
+					<ul id="nav">
+						<li class="li">
+							<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#/index" class="a"  style="text-decoration: none;"><i class="icon icon-home"></i>&nbsp;&nbsp; 首页</a><b><img src="images/jiantou_03.jpg"/></b></span>				
+						</li>
+						
+						<li class="li">
+							<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#/information" class="a"><i class="icon icon-home3"></i>&nbsp;&nbsp; 店铺管理 </a></span>
+							<ul>
+								<li class="click"><a href="#/information">商家信息</a></li>
+								<li ><a href="#/works">商家作品</a></li>
+								<li><a href="#/preview">作品预览</a></li>
+							</ul>
+						</li>
+						
+						<li class="li">
+							<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#/order" class="a"><i class="icon icon-file-text"></i>&nbsp;&nbsp; 服务管理</a></span>							
+							<ul>
+								<li class="click"><a href="#/order">所有订单</a></li>
+								<li><a href="#/photography">摄影未排期</a></li>
+								<li><a href="#/yunmeng">选片排期</a></li>
+								<li><a href="#/finalized">定稿排期</a></li>
+								<li><a href="#/take">取件排期</a></li>
+								<li><a href="#/Totake">待取件排期</a></li>
+								<li><a href="#/complete">已完成订单</a></li>
+								<li><a href="#/Single">已退单</a></li>
+								<li><a href="#/backup">数据备份</a></li>								
+							</ul>
+						</li>
+						
+						<li class="li">
+							<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#/piece" class="a"><i class="icon icon-camera"></i>&nbsp;&nbsp; 客片管理</a></span>							
+						</li>
+						
+						<li class="li">
+							<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#/view" class="a"><i class="icon icon-file-text"></i>&nbsp;&nbsp; 档期管理</a></span>														
+							<ul>
+								<li class="click"><a href="#/view">档期一览</a></li>	
+								<li><a href="#/detail">档期明细</a></li>							        
+						    </ul>					
+						</li>	
+						
+						<li class="li">
+							<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#/share" class="a"><i class="icon icon-share2"></i>&nbsp;&nbsp; 分享统计</a></span>														
+						</li>
+						
+						<li class="li">
+							<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#/customer" class="a"><i class="icon icon-users"></i>&nbsp;&nbsp; 游客管理</a></span>																				
+						</li>						
+								
+						<li class="li">
+							<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#/user" class="a"><i class="icon icon-cog"></i>&nbsp;&nbsp; 系统设置</a></span>																										
+							<ul>
+								<li class="click"><a href="#/user">用户管理</a></li>
+								<li><a href="#/department">部门人员</a></li>
+								<li><a href="#/setting">服务设置</a></li>
+								<li><a href="#/the older">订单来源设置</a></li>
+								<li><a href="#/Sharing Settings">分享设置</a></li>
+								<li><a href="#/shooting">拍摄档期分类</a></li>
+								<li><a href="#/personal">个人信息</a></li>								
+						    </ul>
+						</li>						
+					</ul>
+				</div>
+				
+				<div id="right" ng-view="">
+				</div>
+			</div>
+		
+		
+		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>		
+	</body>
+</html>

@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-size: 12px; }
+
+a {
+  color: #666; }
+  /*a:link {*/
+    /*color: #fff;*/
+    /*text-decoration: none; }*/
+  /*a:active {*/
+    /*color: #fff;*/
+    /*text-decoration: none; }*/
+
+body, html {
+  width: 100%;
+  height: 100%;
+  background: #f5f5f5; }
+
+header {
+  width: 100%;
+  background: #fff; }
+  header div {
+    width: 1200px;
+    height: 60px;
+    line-height: 60px;
+    margin: 0 auto;
+    overflow: hidden; }
+    header div a {
+      float: right; }
+
+#main {
+  width: 1200px;
+  height: 800px;
+  margin: 0 auto;
+  margin-top: 30px;
+  background: #fff; }
+  #main #left {
+    width: 238px;
+    height: 100%;
+    border: 1px solid #f9f9f9;
+    font-size: 14px;
+    color: #999;
+    float: left; }
+    #main #left #nav li {
+      width: 100%; }
+      #main #left #nav li .click {
+        background: #ff6577; }
+        #main #left #nav li .click a {
+          text-decoration: none;
+          color: #fff; }
+      #main #left #nav li li {
+        height: 36px; }
+      #main #left #nav li span {
+        display: block;
+        width: 100%;
+        height: 36px;
+        line-height: 36px; }
+        #main #left #nav li span:hover {
+          background: #ff6577; }
+          #main #left #nav li span:hover a {
+            color: #fff;
+            text-decoration: none; }
+      #main #left #nav li li {
+        width: 100%;
+        text-align: center;
+        height: 36px;
+        line-height: 36px; }
+        #main #left #nav li li:hover {
+          background: #ff6577; }
+          #main #left #nav li li:hover a {
+            color: #fff;
+            text-decoration: none; }
+  #main #right {
+    float: left; }
+
+/*# sourceMappingURL=aaa.css.map */
