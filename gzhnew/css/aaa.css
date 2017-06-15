@@ -1,0 +1,138 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-size: 12px;
+  font-family: "微软雅黑"; }
+
+a {
+  color: #333; }
+
+input, button, td > a, textarea {
+  border-radius: 3px;
+  border: 1px solid #F5F5F5; }
+
+body, html {
+  width: 100%;
+  height: 100%;
+  background: #f5f5f5; }
+
+header {
+  width: 100%;
+  background: #fff; }
+  header div {
+    width: 1200px;
+    height: 60px;
+    line-height: 60px;
+    margin: 0 auto;
+    overflow: hidden; }
+    header div a {
+      float: right; }
+
+#main {
+  width: 1200px;
+  height: 960px;
+  margin: 0 auto;
+  margin-top: 30px;
+  background: #fff; }
+  #main #left {
+    width: 240px;
+    height: 100%;
+    outline: 1px solid #f9f9f9;
+    font-size: 14px;
+    color: #333;
+    float: left; }
+    #main #left #nav li {
+      width: 100%;
+      overflow: hidden; }
+      #main #left #nav li .click {
+        background: #ff6577; }
+        #main #left #nav li .click a {
+          text-decoration: none;
+          color: #fff; }
+      #main #left #nav li span {
+        overflow: hidden;
+        display: block;
+        width: 100%;
+        height: 36px;
+        line-height: 36px; }
+        #main #left #nav li span a {
+          margin-left: 30px;
+          overflow: hidden;
+          display: block;
+          width: 100%;
+          height: 36px;
+          line-height: 36px; }
+          #main #left #nav li span a span {
+            width: 50%;
+            float: left;
+            margin-left: 20px; }
+          #main #left #nav li span a i {
+            height: 36px;
+            line-height: 36px;
+            display: block;
+            color: #666; }
+            #main #left #nav li span a i:nth-of-type(1) {
+              width: 8.5px;
+              float: left; }
+            #main #left #nav li span a i:nth-of-type(2) {
+              float: left; }
+        #main #left #nav li span:hover {
+          background: #ff6577; }
+          #main #left #nav li span:hover a {
+            color: #fff;
+            text-decoration: none; }
+          #main #left #nav li span:hover i {
+            color: #fff; }
+      #main #left #nav li li {
+        width: 100%;
+        height: 36px;
+        line-height: 36px; }
+        #main #left #nav li li a {
+          margin-left: 60px; }
+  #main #right {
+    float: left;
+    width: 960px;
+    font-size: 12px;
+    color: #333; }
+    #main #right td img {
+      width: 10px; }
+    #main #right select {
+      border: 1px solid #F5F5F5;
+      border-radius: 3px; }
+    #main #right .top {
+      width: 100%;
+      padding: 20px 0px 20px 30px;
+      border-bottom: 1px solid #F9F9F9;
+      overflow: hidden; }
+      #main #right .top h4 {
+        font-size: 16px; }
+      #main #right .top ul {
+        margin-top: 15px; }
+        #main #right .top ul li span {
+          height: 40px;
+          line-height: 40px; }
+      #main #right .top button {
+        float: right;
+        width: 100px;
+        height: 40px;
+        border: 1px solid #FF6577;
+        background: #FF6577;
+        line-height: 40px;
+        text-align: center;
+        border-radius: 3px;
+        margin-top: -20px;
+        margin-bottom: 20;
+        margin-right: 50px; }
+        #main #right .top button a {
+          color: #fff; }
+    #main #right .right {
+      width: 900px;
+      margin: 20px auto; }
+      #main #right .right input {
+        border: 1px solid #F5F5F5;
+        border-radius: 3px; }
+
+/*# sourceMappingURL=aaa.css.map */

@@ -1,0 +1,13 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#aa{
+	width: 100px;
+	height: 100px;
+	background: red;
+	margin-left: 200px;
+	position: relative;
+	left: 200px;
+	top: 200px;
+}
