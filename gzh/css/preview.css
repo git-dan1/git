@@ -1,0 +1,93 @@
+#right_3 table {
+  border: 0;
+  margin-top: 40px; }
+  #right_3 table tr td {
+    overflow: hidden;
+    border: 0;
+    padding-bottom: 20px; }
+    #right_3 table tr td:nth-of-type(1) {
+      width: 100px; }
+    #right_3 table tr td:nth-of-type(2) input {
+      margin: 10px 0px; }
+    #right_3 table tr td:nth-of-type(2) #txt2 {
+      width: 300px;
+      height: 30px; }
+    #right_3 table tr td:nth-of-type(2) #txt3 {
+      width: 145px;
+      height: 40px; }
+    #right_3 table tr td:nth-of-type(2) img {
+      width: 10px; }
+    #right_3 table tr td:nth-of-type(2) .ul {
+      overflow: hidden;
+      margin: 20px 0px; }
+      #right_3 table tr td:nth-of-type(2) .ul li {
+        float: left;
+        padding: 10px;
+        border: 1px solid #F5F5F5;
+        border-radius: 3px;
+        margin-right: 10px; }
+        #right_3 table tr td:nth-of-type(2) .ul li:hover {
+          background: #FF6577;
+          color: #fff; }
+    #right_3 table tr td #img {
+      width: 100px;
+      float: left; }
+    #right_3 table tr td ul {
+      float: left;
+      margin-left: 10px;
+      height: 100px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around; }
+      #right_3 table tr td ul #c4_tjtp {
+        width: 100px;
+        height: 30px;
+        background: #fff;
+        border: 1px solid #f5f5f; }
+    #right_3 table tr td #c4_tj {
+      width: 100px;
+      height: 40px;
+      background: #FFf;
+      color: #fff; }
+  #right_3 table tr #td1 span, #right_3 table tr #td4 span {
+    display: block;
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    margin-top: -6px;
+    margin-left: 10px;
+    margin-right: 40px; }
+  #right_3 table tr #td1 input, #right_3 table tr #td4 input {
+    float: left; }
+  #right_3 table tr #td2 a, #right_3 table tr #td3 a {
+    display: block;
+    float: left;
+    margin-right: 10px;
+    padding: 10px 20px; }
+    #right_3 table tr #td2 a:hover, #right_3 table tr #td3 a:hover {
+      background: #FF6577;
+      color: #fff; }
+  #right_3 table tr #td3 a:nth-of-type(1) {
+    border: 0; }
+    #right_3 table tr #td3 a:nth-of-type(1):hover {
+      background: #fff;
+      color: #666; }
+  #right_3 table tr #td5 input {
+    height: 40px; }
+  #right_3 table tr #td6 {
+    padding-top: 40px; }
+    #right_3 table tr #td6 button {
+      width: 100px;
+      height: 50px; }
+      #right_3 table tr #td6 button:nth-of-type(1) {
+        background: #FF6577; }
+        #right_3 table tr #td6 button:nth-of-type(1) a {
+          color: #fff; }
+      #right_3 table tr #td6 button:nth-of-type(2) {
+        background: #fff;
+        margin-left: 20px; }
+  #right_3 table tr #td7 input {
+    width: 300px;
+    height: 40px; }
+
+/*# sourceMappingURL=preview.css.map */

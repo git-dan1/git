@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none; }
+
+#right_6 table {
+  margin-top: 40px; }
+  #right_6 table tr #td1 {
+    height: 40px;
+    line-height: 40px; }
+    #right_6 table tr #td1 span {
+      display: block;
+      float: left;
+      height: 40px;
+      line-height: 40px;
+      margin-left: 10px;
+      margin-right: 40px; }
+    #right_6 table tr #td1 input {
+      float: left;
+      margin-top: 15px; }
+  #right_6 table tr td {
+    overflow: hidden;
+    padding-bottom: 20px; }
+    #right_6 table tr td:nth-of-type(1) {
+      width: 100px; }
+    #right_6 table tr td:nth-of-type(2) {
+      overflow: hidden; }
+  #right_6 table tr .td4 select {
+    width: 150px; }
+  #right_6 table tr .td3 select {
+    width: 150px;
+    height: 38px; }
+  #right_6 table tr .td3 input {
+    height: 30px; }
+    #right_6 table tr .td3 input:nth-of-type(1) {
+      width: 150px; }
+    #right_6 table tr .td3 input:nth-of-type(2) {
+      width: 200px; }
+  #right_6 table tr .td5 input {
+    width: 300px;
+    height: 40px; }
+#right_6 #td6 {
+  padding-top: 40px; }
+  #right_6 #td6 button {
+    width: 100px;
+    height: 50px; }
+    #right_6 #td6 button:nth-of-type(1) {
+      background: #FF6577; }
+      #right_6 #td6 button:nth-of-type(1) a {
+        color: #fff; }
+    #right_6 #td6 button:nth-of-type(2) {
+      background: #fff;
+      margin-left: 20px; }
+
+/*# sourceMappingURL=order.css.map */

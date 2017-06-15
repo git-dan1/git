@@ -1,0 +1,36 @@
+#right_9 .ul1 {
+  overflow: hidden; }
+  #right_9 .ul1 li {
+    float: left;
+    margin-right: 30px;
+    height: 25px;
+    line-height: 25px; }
+    #right_9 .ul1 li button {
+      border: 1px solid #F5F5F5;
+      width: 80px;
+      height: 25px;
+      background: #fff;
+      border-radius: 2px; }
+#right_9 .ul {
+  overflow: hidden;
+  margin-top: 30px; }
+  #right_9 .ul li {
+    width: 200px;
+    float: left;
+    margin-right: 33.33px; }
+    #right_9 .ul li:nth-of-type(4) {
+      margin-right: 0; }
+    #right_9 .ul li img {
+      width: 200px; }
+    #right_9 .ul li:nth-of-type(1) p:nth-of-type(1) span:nth-of-type(2), #right_9 .ul li:nth-of-type(2) p:nth-of-type(1) span:nth-of-type(2) {
+      float: right;
+      color: #ffc3ca; }
+    #right_9 .ul li p {
+      padding: 5px 0; }
+      #right_9 .ul li p:nth-of-type(1) span:nth-of-type(2) {
+        float: right;
+        color: #a2eec2; }
+      #right_9 .ul li p:nth-of-type(2) {
+        color: #d6d6d6; }
+
+/*# sourceMappingURL=piece.css.map */

@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none; }
+
+#right_1 table {
+  margin-top: 40px; }
+  #right_1 table tr td {
+    overflow: hidden;
+    padding-bottom: 20px; }
+    #right_1 table tr td:nth-of-type(1) {
+      width: 100px; }
+    #right_1 table tr td:nth-of-type(2) input {
+      width: 300px;
+      height: 40px;
+      border: 1px solid #F5F5F5;
+      border-radius: 3px; }
+    #right_1 table tr td:nth-of-type(2) img {
+      width: 15px; }
+    #right_1 table tr td:nth-of-type(2) #c4_tj {
+      width: 100px;
+      background: #ff6577;
+      padding: 5px 0px;
+      color: #fff;
+      border-radius: 5px; }
+    #right_1 table tr td select {
+      width: 90px;
+      padding: 5px 0px;
+      border: 1px solid #F5F5F5;
+      border-radius: 3px; }
+    #right_1 table tr td textarea {
+      border: 1px solid #F5F5F5;
+      border-radius: 3px; }
+    #right_1 table tr td #img {
+      width: 100px;
+      float: left; }
+    #right_1 table tr td ul {
+      float: left;
+      margin-left: 10px;
+      height: 100px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around; }
+      #right_1 table tr td ul #c4_tjtp {
+        width: 100px;
+        height: 30px;
+        background: #fff;
+        border: 1px solid #f5f5f; }
+    #right_1 table tr td #c4_tj {
+      width: 100px;
+      height: 40px;
+      background: #FFf;
+      color: #fff; }
+
+/*# sourceMappingURL=information.css.map */
